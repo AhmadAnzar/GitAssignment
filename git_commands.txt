@@ -1,0 +1,35 @@
+1. git init -b main
+Initialised a new Git repository with main as default branch.
+
+2. git add .
+Added all the project files to the staging area.
+
+3. git commit -m "Initial commit"
+Saved(Committed) the initial version of the project.
+
+4. git branch feature
+Created a separate branch named feature.
+
+5. git switch feature
+Switched to the feature branch to make changes.
+
+6. git switch main
+Switched back to the main branch from feature.
+
+7. git merge --no-ff feature -m "Merge feature branch into main"
+Merged the feature branch into main and created a separate merge commit (no ff meant no fastforward) .
+
+8. git log --oneline --graph --all
+Displayed the commit history and branch activity.
+
+9. git revert HEAD
+Undid the changes from the previous commit without deleting its history.
+
+10. git remote add origin https://github.com/AhmadAnzar/GitAssignment.git
+Connected the local repository to GitHub.
+
+11. git push -u origin main
+Uploaded the main branch to GitHub.
+
+12. git push -u origin feature
+Uploaded the feature branch to GitHub.
